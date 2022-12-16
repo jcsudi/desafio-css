@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root{
+    --color-red:#F03C42;
+    --color-white:#FFFFFF;
+    --color-blue:#222374;
+    --color-black:#000000;
+    --color-grey:#CCCCCC;
+    --color-background: #E5E5E5;
+
+}
+
+*{
+    font-family: 'Opens Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a, a:hover{
+    text-decoration: none;
+    color: unset;
+}
+
+header{
+    background-color: var(--color-red);
+    width: 1200px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;    
+}
+
+header h1{
+    font-size: 18px;
+    color: var(--color-white);
+   
+}
+
+#fitness-space-section{
+    background-color: var(--color-blue);
+    padding: 20px;
+}
+
+.container{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#fitness-space-section h2{
+    font-size: 32px;
+    color: var(--color-white);
+    padding: 20px 0 40px 0;
+}
+
+.fitness-space{
+    background-color: var(--color-grey);
+    height: 127px;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.fitness-space h3{
+    font-size: 20px;
+    color: var(--color-black);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 0;
+   
+}
+.fitness-space p{
+    font-size: 14px;
+    color: var(--color-black);
+    padding-bottom: 20px;  
+}
+
+.container-header-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: var(--color-white);
+    font-size: 14px;
+}
+
+.container-header-content img{
+    margin-right: 10px;
+}
+html{
+    background-color: var(--color-background);
+    display: flex;
+    justify-content: center;
+    margin: 5px;   
+}
+#modalities-section{
+    background-color: var(--color-white);
+    padding: 20px;
+}
+#modalities-section h2{
+    font-size: 32px;
+    color: var(--color-red);
+    margin-bottom: 20px;   
+}
+
+.modalities-description{
+    background-color: var(--color-blue);
+    height: 106px;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.modalities-description h3{
+    font-size: 20px;
+    color: var(--color-white);
+    margin-bottom: 20px;
+}
+
+.modalities-description p{
+    font-size: 14px;
+    color: var(--color-grey);
+}
+
+footer{
+    background-color: var(--color-black);
+    height: 262px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container-footer-content {
+    font-size: 14px;
+    color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+   
+}
+
+.footer-logo-insta{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; 
+    gap: 10px ;    
+}
+
+.footer-logo-twitter{
+    display:flex ;
+    align-items: center;
+    gap: 10px;
+}
+
+.container-footer-content p{
+    margin-top: 36px;
+    
+}
+.container-footer-content address{
+    text-align: center;
+}
+
+
+
+
